@@ -23,14 +23,14 @@ body {
 kbd {
   display: block;
   font-size: 4rem;
-  color:azure;
+  
 }
 
 /* Name of Sound */
 .sound {
   font-size: 1.2rem;
   letter-spacing: 0.1rem;
-  color: azure;
+  
 }
 
 /* Use CSS Grid to display keys */
@@ -42,6 +42,7 @@ kbd {
   -webkit-box-pack: center;
           justify-content: center;
   position: relative;
+  font-family:"MS Sans Serif";
 }
 
 /* Visual Keys / Squares */
@@ -54,7 +55,12 @@ kbd {
   /* Styling of keys */
   width: 10rem;
   text-align: center;
-  outline: 1px solid azure;
+  background:#C0C0C0;
+  border-style:solid;
+  border-width:1px;
+  border-color:#FFFFFF #808080 #808080 #FFFFFF;
+  outline:1px solid #000000;
+  font-family:"MS Sans Serif";
   
   /* Change mouse pointer */
   cursor:pointer;
