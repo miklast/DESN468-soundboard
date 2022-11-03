@@ -1,6 +1,6 @@
-# TBD Soundboard
+# Office-esque Soundboard
 
-A soundboard that is still to be decided on
+A soundboard that is meant to be the sounds of office history.
 
 <!-- screenshot here -->
 
